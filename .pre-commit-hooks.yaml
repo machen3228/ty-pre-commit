@@ -1,9 +1,9 @@
 - id: ty
   name: ty
-  description: Run ty type checker
+  description: "Run 'ty check' for extremely fast Python type checking"
   entry: ty check
   language: python
-  types: [python]
+  types_or: [python, pyi]
   pass_filenames: false
   require_serial: true
-  additional_dependencies: ["ty>=0.0.1a26"]
+  minimum_pre_commit_version: "2.9.2"
