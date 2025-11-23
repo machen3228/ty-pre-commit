@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ty-pre-commit"
+version = "0.0.1"
+description = "Pre-commit hook for ty type checker"
+authors = [{name = "Jacob Coffee", email = "jacob@z7x.org"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["ty>=0.0.1a26"]
