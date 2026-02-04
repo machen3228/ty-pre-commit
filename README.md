@@ -1,6 +1,6 @@
 # ty-pre-commit
 
-Official pre-commit hook for [ty](https://github.com/astral-sh/ty) type checker.
+Unofficial pre-commit hook for [ty](https://github.com/astral-sh/ty) type checker.
 
 ## Usage
 
