@@ -7,11 +7,12 @@ Official pre-commit hook for [ty](https://github.com/astral-sh/ty) type checker.
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
-repos:
-  - repo: https://github.com/JacobCoffee/ty-pre-commit
-    rev: v0.0.1
-    hooks:
-      - id: ty
+- repo: https://github.com/machen3228/ty-pre-commit
+  rev: v0.0.1
+  hooks:
+    - id: ty
+      name: ty check
+      args: [ "--ignore", "unresolved-import" ]
 ```
 
 ## Configuration
