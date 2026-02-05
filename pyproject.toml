@@ -4,3 +4,6 @@ version = "0.0.1"
 dependencies = [
     "ty>=0.0.14",
 ]
+
+[tool.ty.terminal]
+error-on-warning = false
