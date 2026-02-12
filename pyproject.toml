@@ -2,7 +2,7 @@
 name = "ty-pre-commit"
 version = "0.0.1"
 dependencies = [
-    "ty>=0.0.14",
+    "ty>=0.0.16",
 ]
 
 [tool.ty.terminal]
